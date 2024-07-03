@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/static/password.jpg');
+    background-size:cover;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    border-color: black;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: rgb(15, 2, 71);
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color:beige;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 20px;
+    font-weight: bolder;
+}
